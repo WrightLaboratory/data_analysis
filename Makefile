@@ -1,15 +1,11 @@
-index.html: src/data_analysis.md Makefile
-	pandoc --to=revealjs --standalone \
-	--output=docs/$@ src/computing_intro.md \
-	--slide-level 2 \
-        -i \
-        -V revealjs-url=https://revealjs.com \
-        -V theme=league \
-        -V history=false \
-        -V center=false \
-        -V slideNumber=true\
-        -V transition=slide \
-        -V controlsTutorial=false \
+index.html: notebooks/data_analysis.ipynb Makefile
+	jupyter nbconvert --to slides \
+         --output-dir=./docs \
+         --output=index \
+         --execute \
+         --reveal-prefix=https://revealjs.com \
+         notebooks/data_analysis.ipynb;\
+         mv docs/index.slides.html docs/$@
 
 clean: 
 	rm index.html

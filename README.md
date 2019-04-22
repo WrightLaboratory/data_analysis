@@ -1,5 +1,5 @@
-# computing_intro
-Introduction to Wright Lab and Yale Computing Resources  
+# Data Analysis
+Introduction to data analysis with python  
 
 ## Presenting
 
@@ -22,9 +22,8 @@ The default keyboard shortcuts are:
 
 ## To Build
 
-Need `pandoc`, my version is `1.19.2.4`. To build slides (index.html) just run `make`.
+To build slides (index.html) just run `make`.
 
 ## Format
 
-Slides are written in markdown, with intent to convert to [reveal.js](https://revealjs.com/). Make new slides with single `#` (h1). Make vertical runs of slides by wrapping them with `<section></section>`.
-
+Slides are written in a Jupyter notebook, with intent to convert to [reveal.js](https://revealjs.com/). 
