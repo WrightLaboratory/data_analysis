@@ -3,7 +3,7 @@ index.html: notebooks/data_analysis.ipynb Makefile
          --output-dir=./docs \
          --output=index \
          --execute \
-         --reveal-prefix=https://revealjs.com \
+         --reveal-prefix reveal.js \
          notebooks/data_analysis.ipynb;\
          mv docs/index.slides.html docs/$@
 
