@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/WrightLaboratory/data_analysis/HEAD)
 # Data Analysis
 Introduction to data analysis with python  
 
