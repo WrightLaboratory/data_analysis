@@ -1,0 +1,25 @@
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+.cache
+*/.cache/*
+
+.config
+*/.config/*
+
+.ipython
+*/.ipython/*
+
+.jupyter
+*/.jupyter/*
+
+.local
+*/.local/*
+
+# Ignore files created by demo: Import and Export Arrays
+*/test.txt
+*/test.npy
